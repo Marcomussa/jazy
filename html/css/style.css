@@ -586,7 +586,7 @@ b, strong {
   color: var(--base-color) !important;
 }
 .text-base-color, .btn-link.text-base-color {
-  color: var(--base-color);
+  color: var(--light-green);
 }
 .text-black, .btn-link.text-black, a.text-black-hover:hover {
   color: var(--black);
@@ -10494,8 +10494,8 @@ blockquote footer {
 }
 .btn.btn-double-border.btn-border-base-color {
   position: relative;
-  border: 1px solid var(--base-color);
-  color: var(--base-color);
+  border: 1px solid var(--light-green);
+  color: var(--light-green);
 }
 .btn.btn-double-border.btn-border-base-color:hover {
   border-color: var(--dark-gray);
@@ -14223,6 +14223,12 @@ canvas {
   opacity: 0.8;
 }
 /* Services box style 02 */
+.num-cars {
+  color: var(--dark-green);
+}
+.services-box-style-02 {
+  height: 450px;
+}
 .services-box-style-02 .box-overlay {
   z-index: 1;
   -webkit-transition: all 450ms ease-in-out;
