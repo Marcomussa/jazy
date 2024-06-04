@@ -90,6 +90,9 @@ Table of contents
 /* ===================================
     03. Reset
 ====================================== */
+.bg-light-green {
+  background: var(--light-green);
+}
 .alt-font {
   font-family: var(--alt-font);
 }
