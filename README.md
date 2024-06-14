@@ -6,3 +6,9 @@ Ejemplo de como venden la yerba mate en Australia
 
 https://www.naturallydriven.com.au/pages/yerba-mate
 
+## Tareas:
+- Logo
+- Imagenes
+- Boton cambio idioma
+- Nav funcional
+- Revisar responsive

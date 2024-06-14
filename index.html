@@ -1,24 +1,24 @@
 ﻿<!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title>Jasy</title>
+        <title>Jasy - Yerba Mate</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Alpha X">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content="">
         <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/jasy-icon.png">
+        <link rel="shortcut icon" href="html/images/jasy-icon.png">
 
         <!-- google fonts preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- style sheets and font icons  -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/spa-salon/spa-salon.css" />
+        <link rel="stylesheet" href="html/css/vendors.min.css"/>
+        <link rel="stylesheet" href="html/css/icon.min.css"/>
+        <link rel="stylesheet" href="html/css/style.css"/>
+        <link rel="stylesheet" href="html/css/responsive.css"/>
+        <link rel="stylesheet" href="html/demos/spa-salon/spa-salon.css" />
     </head>
     <body class="overflow-x-hidden" data-mobile-nav-style="classic">
         <!-- start header -->
@@ -31,7 +31,7 @@
                             <a href="tel:1800222000" class="widget-text text-white-hover fs-16 lg-fs-15"><i class="feather icon-feather-phone icon-small me-5px lg-me-2px"></i>1 800 222 000</a>
                         </div> 
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/demo-spa-salon-logo-white.png"alt="" class="default-logo">
+                            <img src="html/images/demo-spa-salon-logo-white.png"alt="" class="default-logo">
                             
                         </a>   
                     </div>
@@ -44,14 +44,14 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">  
                             <ul class="navbar-nav navbar-left justify-content-end"> 
-                                <li class="nav-item"><a href="demo-spa-salon.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-spa-salon-about.html" class="nav-link">About</a></li>
-                                <li class="nav-item"><a href="demo-spa-salon-treatments.html" class="nav-link">Treatments</a></li> 
+                                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#acerca-de" class="nav-link">Acerca De</a></li>
+                                <li class="nav-item"><a href="#ventajas" class="nav-link">Ventajas</a></li> 
                             </ul>
                             <ul class="navbar-nav navbar-right justify-content-start"> 
-                                <li class="nav-item"><a href="demo-spa-salon-packages.html" class="nav-link">Packages</a></li>
-                                <li class="nav-item"><a href="demo-spa-salon-facility.html" class="nav-link">Facility</a></li>
-                                <li class="nav-item"><a href="demo-spa-salon-contact.html" class="nav-link">Contact</a></li> 
+                                <li class="nav-item"><a href="#caracteristicas" class="nav-link">Caracteristicas</a></li>
+                                <li class="nav-item"><a href="#infusiones" class="nav-link">Infusiones</a></li>
+                                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li> 
                             </ul> 
                         </div>
                     </div> 
@@ -68,6 +68,7 @@
             </nav>
         </header>
         <!-- end header -->
+        
         <!-- start banner slider -->
         <section class="p-0 bg-dark-gray">
             <div class="swiper full-screen ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-01 magic-cursor drag-cursor base-color" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 5000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "fade" }' data-number-pagination="1" data-anime-text='{ "translateY": [50,0], "opacity": [0,1], "easing": "easeOutQuad", "duration": 500, "delay": { "staggervalue": 20 } }'>
@@ -135,16 +136,32 @@
         </section>
         <!-- end banner slider --> 
         <!-- start section -->
-     
+        <section class="background-repeat pb-0" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5" data-anime='{ "el": "childs", "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="fs-15 mb-10px text-base-color fw-500 d-block text-uppercase ls-2px">HISTORIA</span>
+                        <h3 class="alt-font ls-minus-1px text-dark-gray mb-12 md-mb-50px sm-mb-30px">Jasy es mas que solo una yerba mate.</h3>
+                        <img src="https://placehold.co/480x480" class="border-radius-6px mb-20px w-100" alt="">
+                    </div>
+                    <div class="col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <p class="w-90 mb-35px lg-w-100">Hace mucho tiempo, Jasy, la diosa luna, y su amiga Araí, la diosa nube, decidieron bajar a la tierra para explorar sus maravillas. Cansadas, encontraron una cabaña en el bosque, pero fueron atacadas por un yaguareté. Un valiente cazador las salvó y les ofreció refugio. Impresionadas por la hospitalidad y generosidad del cazador y su familia, las diosas decidieron recompensarlos.</p>
+                        <p class="w-90 mb-35px lg-w-100">Jasy sembró semillas mágicas que al amanecer se convirtieron en árboles de hojas verdes y flores blancas. Les explicó que esta planta, llamada "caá", nunca permitiría que se sintieran solos y sería un símbolo especial de amistad para todos. Jasy también determinó que la hija del cazador sería la dueña de la planta, viviendo por siempre sin perder su bondad, inocencia y belleza. Después de mostrarles cómo secar las hojas, Jasy preparó el primer mate y se los ofreció. Luego, regresó satisfecha a su puesto en el cielo.</p>
+                        <p class="w-90 mb-35px lg-w-100">Con el tiempo, la hija del cazador se convirtió en la deidad protectora de la yerba mate, conocida como Caá Yarí, cuidando de su crecimiento y susurrando a las plantas en los yerbales.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- end section -->
         <!-- start section --> 
-        <section class="background-repeat" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container">
                 <div class="row align-items-center mb-10 md-mb-17 xs-mb-25">
                     <div class="col-xl-5 col-lg-6 md-mb-70px sm-mb-45px">
                         <span class="fs-15 mb-15px text-base-color fw-500 d-block text-uppercase ls-2px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>Yerba Mate Jasy</span>
                         <h3 class="alt-font ls-minus-1px text-dark-gray w-80 xl-w-90 md-w-100" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 0, "duration": 600, "staggervalue": 100, "easing": "easeOutQuad" }'>Características y Beneficios</h3>
-                        <p class="w-80 md-w-100 mb-40px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 200, "duration": 600, "staggervalue": 100, "easing": "easeOutQuad" }'>Nuestra yerba mate Jasy es una experiencia única y auténtica, cuidadosamente producida para brindarte lo mejor de la naturaleza. Aquí te presentamos sus principales características:</p>
+                        <p class="w-80 md-w-100 mb-40px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 200, "duration": 600, "staggervalue": 100, "easing": "easeOutQuad" }'>Nuestra yerba mate Jasy es una experiencia única y auténtica, cuidadosamente producida para brindarte lo mejor de la naturaleza.</p>
                         <div class="d-inline-block w-100" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1],  "delay":300, "duration": 600, "staggervalue": 300, "easing": "easeOutQuad" }'> 
                             <a href="demo-spa-salon-about.html" class="btn btn-small btn-double-border btn-border-base-color me-25px xs-me-15px">
                                 <span>
@@ -224,11 +241,11 @@
                 </div>
                 <div class="row align-items-center mt-70px"> 
                     <div class="col-lg-4 md-mb-50px sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                        <h3 class="alt-font ls-minus-1px text-dark-gray">Everything is included plan.</h3>
-                        <p class="mb-35px w-90 lg-w-100">The daily grind of work and personal life needs takes a toll on your body and mind. Personalised it with a message.</p>
+                        <h3 class="alt-font ls-minus-1px text-dark-gray">Jasy es la yerba que necesitas.</h3>
+                    
                         <a href="#explore" class="btn btn-small btn-double-border btn-border-base-color section-link">
                             <span>
-                                <span class="btn-double-text" data-text="Explore more">Explore more</span> 
+                                <span class="btn-double-text" data-text="Explore more">Conocé Mas</span> 
                                 <span><i class="fa-solid fa-arrow-right"></i></span>
                             </span>
                         </a> 
@@ -242,8 +259,8 @@
                                         <i class="fa-solid fa-check icon-very-small text-white"></i> 
                                     </div>
                                     <div class="feature-box-content">
-                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Secure payments</span>
-                                        <p>Lorem ipsum text printing typesetting industry.</p>
+                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Cuidado Especial</span>
+                                        <p>Nos aseguramos de que cada hoja de nuestra yerba mate sea pura y libre de contaminantes.</p>
                                     </div>
                                 </div>
                             </div>
@@ -255,8 +272,8 @@
                                         <i class="fa-solid fa-check icon-very-small text-white"></i> 
                                     </div>
                                     <div class="feature-box-content">
-                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Memberships gift</span>
-                                        <p>Lorem ipsum text printing typesetting industry.</p>
+                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Respeto por el ecosistema</span>
+                                        <p>Cuidamos el suelo sin recurrir a químicos dañinos.</p>
                                     </div>
                                 </div>
                             </div>
@@ -268,8 +285,8 @@
                                         <i class="fa-solid fa-check icon-very-small text-white"></i> 
                                     </div>
                                     <div class="feature-box-content">
-                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Health facility</span>
-                                        <p>Lorem ipsum text printing typesetting industry.</p>
+                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">+ Sabor & + Suavidad</span>
+                                        <p>El estacionamiento permite que la yerba mate desarrolle un sabor más suave y equilibrado, eliminando la amargura y mejorando sus propiedades.</p>
                                     </div>
                                 </div>
                             </div>
@@ -281,8 +298,8 @@
                                         <i class="fa-solid fa-check icon-very-small text-white"></i> 
                                     </div>
                                     <div class="feature-box-content">
-                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">No hidden costs</span>
-                                        <p>Lorem ipsum text printing typesetting industry.</p>
+                                        <span class="d-inline-block alt-font text-dark-gray mb-5px alt-font fs-22">Es Jasy</span>
+                                        <p>Gracias a nuestro proceso de producción y estacionamiento natural, esta no produce acidez.</p>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +312,7 @@
         </section>
         <!-- end section -->
         <!-- start section --> 
-        <section class="background-repeat border-top border-color-light-gray position-relative overlap-height z-index-1" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat border-top border-color-light-gray position-relative overlap-height z-index-1" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="position-absolute right-minus-50px overlap-section z-index-minus-1 d-none d-lg-inline-block" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
                 <img src="https://placehold.co/175x175" alt="">
             </div>
@@ -494,7 +511,7 @@
         </section>
         <!-- end section -->
         <!-- start section --> 
-        <section class="background-repeat border-top border-color-light-gray position-relative overlap-height z-index-1" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat border-top border-color-light-gray position-relative overlap-height z-index-1" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="overlap-section text-center mb-6 z-index-minus-1 d-none d-md-block">
                 <img src="https://placehold.co/250x120" alt="">
             </div>
@@ -515,15 +532,15 @@
                         <span class="fs-15 lg-10px mb-5px text-base-color fw-500 d-block text-uppercase ls-2px">100%</span>
                         <h3 class="alt-font ls-minus-1px text-dark-gray">Natural y Organica</h3>
                         <p class="w-80 xl-w-90 md-w-100 mb-10px">La yerba mate es una bebida completa que ofrece múltiples beneficios para la salud, haciendo que su consumo regular sea una excelente adición a un estilo de vida saludable.</p>
-                        <ul class="p-0 list-style-01 fs-20 alt-font mb-25px">
+                        <!-- <ul class="p-0 list-style-01 fs-20 alt-font mb-25px">
                             <li class="border-color-light-gray pt-15px pb-15px text-dark-gray">Increased happiness</li>
                             <li class="border-color-light-gray pt-15px pb-15px text-dark-gray">Promotes radiant skin</li>
                             <li class="border-color-light-gray pt-15px pb-15px text-dark-gray">Promotes a better sleep</li> 
-                        </ul>
+                        </ul> -->
                         <div class="d-inline-block w-100">
                             <a href="demo-spa-salon-treatments.html" class="btn btn-small btn-double-border btn-border-base-color">
                                 <span>
-                                    <span class="btn-double-text" data-text="View treatments">View treatments</span>
+                                    <span class="btn-double-text" data-text="View treatments">Contactanos</span>
                                     <span><i class="fa-solid fa-arrow-right"></i></span>
                                 </span>
                             </a>
@@ -534,15 +551,14 @@
         </section>
         <!-- end section -->
         <!-- start section --> 
-        <section class="background-repeat pb-10" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat pb-10" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container-fluid p-0">
                 <div class="row align-items-center g-0 justify-content-center">
                     <div class="col">
                         <div class="divider-style-03 divider-style-03-01 border-color-light-gray"></div>
                     </div>
                     <div class="col-5 col-lg-2 col-sm-3 text-center position-relative">
-                        <img src="images/demo-spa-salon-home-13.png" class="animation-rotation" alt="">
-                        <div class="absolute-middle-center lg-w-75"><img src="https://placehold.co/150x150" alt=""></div>
+                        <img src="html/images/Jasy-circle.png" class="animation-rotation" alt="">
                     </div>
                     <div class="col">
                         <div class="divider-style-03 divider-style-03-01 border-color-light-gray"></div>
@@ -552,7 +568,7 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section class="background-repeat position-relative overlap-height pt-0" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');"> 
+        <section class="background-repeat position-relative overlap-height pt-0" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');"> 
            
             <div class="container overlap-gap-section">
                 <div class="row justify-content-center mb-3">
@@ -692,20 +708,19 @@
             </div>
         </section>
         <!-- start footer --> 
-        <footer class="half-footer pb-45px border-top border-color-light-gray background-repeat" style="background-image:url('images/demo-spa-salon-home-bg-01.jpg');">
+        <footer class="half-footer pb-45px border-top border-color-light-gray background-repeat" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container">
                 <div class="overlap-section position-absolute left-0px right-0px text-center d-none d-md-inline-block" data-anime='{ "el": "childs", "translateY": [0, 0], "scale": [0.7, 1], "rotateZ": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <img src="https://placehold.co/280x280" alt="" class="lg-w-20">
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin me-auto z-index-1 text-center text-sm-start xs-mb-20px">
-                        <span class="fs-20 fw-500 text-dark-gray d-block mb-5px">Studio location</span>
-                        <p class="w-100">401 Broadway, 24th Floor<br>New York, NY 10013.</p>
+                        <span class="fs-20 fw-500 text-dark-gray d-block mb-5px">Lorem, ipsum dolor.</span>
+                        <p class="w-100">Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-end z-index-1">
                         <span class="fs-20 fw-500 text-dark-gray d-block mb-5px">Informacion de Contacto</span>
                         <a href="mailto:info@yourdomain.com">info@yourdomain.com</a><br>
-                        <a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a>
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center mt-20px mb-10px md-mb-20px"> 
@@ -742,8 +757,8 @@
         </div>
         <!-- end scroll progress -->
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="html/js/jquery.js"></script>
+        <script type="text/javascript" src="html/js/vendors.min.js"></script>
+        <script type="text/javascript" src="html/js/main.js"></script>
     </body>
 </html>
