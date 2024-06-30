@@ -722,49 +722,50 @@
                 </div> 
                 <div class="row row-cols-md-1 justify-content-center mb-10 md-mb-15 sm-mb-0">
                     <div class="col-xl-9 col-lg-10 col-md-12">
-                        <form action="email-templates/contact-form.php" method="post" class="contact-form-style-03">
+                        <form class="contact-form-style-03" id="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="exampleInputEmail1" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0"> Nombre y Apellido*</label>
+                                    <label for="name-contactForm" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0"> Nombre y Apellido*</label>
                                     <div class="position-relative form-group mb-25px">
                                         <span class="form-icon"><i class="bi bi-emoji-smile text-dark-gray"></i></span>
-                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail1" type="text" name="name" placeholder="Ingrese su Nombre y Apellido" />
+                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="name-contactForm" type="text" name="name" required placeholder="Ingrese su Nombre y Apellido" />
                                     </div>
                                 </div>
                                  <div class="col-md-6">
-                                    <label for="exampleInputEmail1" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Email*</label>
+                                    <label for="email-contactForm" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Email*</label>
                                     <div class="position-relative form-group mb-25px">
                                         <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
-                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail2" type="email" name="email" placeholder="Ingrese su Email" />
+                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="email-contactForm" required type="email" name="email" placeholder="Ingrese su Email" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="exampleInputEmail1" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Telefono</label>
+                                    <label for="phone-contactForm" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Telefono</label>
                                     <div class="position-relative form-group mb-25px">
                                         <span class="form-icon"><i class="bi bi-telephone text-dark-gray"></i></span>
-                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail3" type="tel" name="phone" placeholder="Ingrese su Telefono" />
+                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" required id="phone-contactForm" type="tel" name="phone" placeholder="Ingrese su Telefono" />
                                     </div>
                                 </div> 
                                 <div class="col-md-6">
                                     <label for="exampleInputEmail1" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Consulta</label>
                                     <div class="position-relative form-group mb-25px">
                                         <span class="form-icon"><i class="bi bi-journals text-dark-gray"></i></span>
-                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="exampleInputEmail4" type="text" name="subject" placeholder="Motivo de Consulta" />
+                                        <input class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control"  type="text" id="subject-contactForm" required  name="subject" placeholder="Motivo de Consulta" />
                                     </div>
                                 </div>
                                 <div class="col-12 mb-35px">
-                                    <label for="exampleInputEmail1" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Mensaje</label>
+                                    <label for="text-contactForm" class="form-label fs-13 ls-1px text-uppercase text-dark-gray fw-500 mb-0">Mensaje</label>
                                     <div class="position-relative form-group form-textarea mb-0"> 
-                                        <textarea class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" name="comment" placeholder="Ingrese su Mensaje" rows="4"></textarea>
+                                        <textarea class="fs-17 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="text-contactForm" name="comment" placeholder="Ingrese su Mensaje" rows="4"></textarea>
                                         <span class="form-icon"><i class="bi bi-chat-square-dots text-dark-gray"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-md-8 sm-mb-30px text-center text-md-start">
+                                    <div class="g-recaptcha" data-sitekey="6LcU8gQqAAAAAF1HONpxti4AB566ruZkUubC9weg"></div>
                                     <p class="mb-0 fs-15 lh-26 w-80 md-w-85 sm-w-100">Estamos comprometidos a proteger su privacidad. Nunca recopilaremos información sobre usted sin su consentimiento explícito.</p>
                                 </div>
                                 <div class="col-md-4 text-center text-md-end">
-                                    <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
-                                    <button class="btn btn-small btn-double-border btn-border-base-color left-icon submit" type="submit">
+                                    <input id="submit-contactSection" type="hidden" name="redirect" value="">
+                                    <button class="btn btn-small btn-double-border btn-border-base-color left-icon" type="submit" id="submit-contactSection">
                                         <span>
                                             <span><i class="fa-regular fa-paper-plane"></i></span>
                                             <span class="btn-double-text" data-text="Enviar Mensaje">Enviar Mensaje</span> 
@@ -833,6 +834,10 @@
         <script type="text/javascript" src="html/js/jquery.js"></script>
         <script type="text/javascript" src="html/js/vendors.min.js"></script>
         <script type="text/javascript" src="html/js/main.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="html/js/form.js"></script>
     </body>
 </html>
 
