@@ -175,15 +175,35 @@ footer.half-footer {
         margin-right: 2px !important;
     }
 }
+/* Ocultar el logo de móvil por defecto */
+#logo-mobile {
+    display: none;
+}
+
+/* Mostrar el logo de escritorio por defecto */
+#logo-desktop {
+    display: inline;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Ocultar el logo de escritorio */
+    #logo-desktop {
+        display: none;
+    }
+    
+    /* Mostrar el logo de móvil */
+    #logo-mobile {
+        display: inline;
+    }
+}
 @media (max-width: 991px) {
     header .navbar-brand,
     header.sticky .fixed-header .navbar-brand, 
     header.sticky .disable-fixed .navbar-brand{
         padding: 15px 0;
     }
-    header .navbar-brand img {
-        max-height: 50px;
-    }
+    
     .tab-style-08 ul .nav-item .nav-link {
         padding: 15px 10px;
     }

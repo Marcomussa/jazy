@@ -47,7 +47,7 @@ Table of contents
 ====================================== */
 :root {
   --dark-green: #39473f;
-  --light-green: #009d52
+  --light-green: #009d52;
   --base-color: #2946f3;
   --white: #ffffff;
   --black: #000000;
@@ -3186,7 +3186,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 ====================================== */
 /* Background color */
 .bg-base-color {
-  background-color: var(--base-color);
+  background-color: #009d52;
 }
 .bg-dark-gray,
 .bg-dark-gray:focus {
@@ -19248,7 +19248,7 @@ footer .footer-navbar .nav-item:last-child a {
 }
 @media only screen and (max-width: 500px){
   .left-minus-30px {
-    left: 10px;
+    left: 80px;
   }
 }
 
@@ -19334,3 +19334,17 @@ footer .footer-navbar .nav-item:last-child a {
   left: 20px;
 }
 
+@media only screen and (max-width: 600px){
+  #textToHide {
+    display: none;
+  }
+  .xs-text-white {
+    color: white !important;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  #seguirLeyendo {
+    display: none !important;
+  }
+}

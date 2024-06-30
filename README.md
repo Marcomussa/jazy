@@ -1,14 +1,14 @@
-- Conocimiento acerca de los beneficios del producto y por que conviene tomar mate 
-- Otra que sugiera distintas formas de consumirla. 
-- Otra que hable acerca de los origenes y otra que cuente nuestra historia.
+somos jasy —> tipografia jasy del logo 
+por que jasy —> agregar blend seleccionado, hojas especialmente seleccionadas, amolienda exclusiva. metodologia
+ingles sin + ni &.
+Es Argentina. Es Jasy
 
-Ejemplo de como venden la yerba mate en Australia
+Por que tomar mate? o beneficios de la yerba mate. Agregar seccion, antes de infusiones. 4 beneficios, antioxidante, energizante natural, manteneer el foco, 
 
-https://www.naturallydriven.com.au/pages/yerba-mate
+Logo en mobile estirado
 
-## Tareas:
-- Logo
-- Imagenes
-- Boton cambio idioma
-- Nav funcional
-- Revisar responsive  
+En mobile, primer parrafo y agregar boton de leer mas
+
+Por que jasy mobile quitar padding bottom
+
+Iconos verde intermedio
