@@ -16630,6 +16630,12 @@ canvas {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
+.team-style-05 img {
+  transition: transform 0.3s ease; /* Añade una transición suave para todas las transformaciones */
+}
+.team-style-05:hover img {
+  transform: scale(0.9); /* Achica la imagen al 90% de su tamaño original */
+}
 .team-style-05:hover .team-content {
   opacity: 1;
 }
