@@ -77,6 +77,21 @@
   }
 }
 @media (max-width: 767px) {
+  .xs-text-center {
+    text-align: center;
+  }
+  .xs-text-justify {
+    text-align: justify;
+  }
+  .xs-pb-0px {
+    padding-bottom: 1px !important;
+  }
+  .xs-pt-0px {
+    padding-top: 1px !important;
+  }
+  .xs-mb-10px {
+    margin-bottom: 10px !important;
+  }
   html {
     font-size: 12px;
   }
