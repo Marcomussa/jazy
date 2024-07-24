@@ -22,9 +22,9 @@
     </head>
     <body class="overflow-x-hidden" data-mobile-nav-style="classic">
         <!-- start header -->
-        <header>
+        <header id="nav-container">
             <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-transparent bg-transparent center-logo disable-fixed">
+            <nav class="navbar navbar-expand-lg header-transparent bg-transparent center-logo disable-fixed" id="navbar">
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 menu-logo">
                         <div class="header-icon">  
@@ -48,7 +48,7 @@
                             <ul class="navbar-nav navbar-left justify-content-end"> 
                                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                                 <li class="nav-item"><a href="#acerca-de" class="nav-link">Nosotros</a></li>
-                                <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
+                                <li class="nav-item"><a href="#propiedades" class="nav-link">Propiedades</a></li>
                             </ul>
                             <ul class="navbar-nav navbar-right justify-content-start"> 
                                 <li class="nav-item"><a href="#ventajas" class="nav-link">Ventajas</a></li> 
@@ -133,7 +133,7 @@
                                 <div class="col-xl-8 col-lg-9 position-relative text-white text-center">
                                     <span class="fs-15 d-block mb-15px ls-4px text-uppercase" data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "delay": 200 }'>Jasy se estaciona de forma natural</span>
                                     <div class="alt-font fs-80 sm-fs-60 xs-fs-50 mb-40px w-80 lg-w-100 md-w-90 sm-w-100 mx-auto sm-mb-35px anime-text ls-minus-2px" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Estacionamiento Natural de 2 Años"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'></div>  
-                                    <a href="#caracteristicas" class="btn btn-medium fw-500 btn-double-border btn-border-color-transparent-white" data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'>
+                                    <a href="#propiedades" class="btn btn-medium fw-500 btn-double-border btn-border-color-transparent-white" data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'>
                                         <span>
                                             <span class="btn-double-text" data-text="Conocé Más">Conocé Más</span> 
                                         </span>
@@ -182,9 +182,9 @@
         </section>
         <!-- end section -->
         <!-- start section --> 
-        <section class="background-repeat xs-pb-0px" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat pb-10px" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container">
-                <div class="row align-items-center mb-10 md-mb-17 xs-mb-25" id="caracteristicas">
+                <div class="row align-items-center mb-10 md-mb-17 xs-mb-25" id="propiedades">
                     <div class="col-xl-5 col-lg-6 md-mb-70px sm-mb-45px">
                         <span class="xs-text-center fs-15 mb-15px text-base-color fw-500 d-block text-uppercase ls-2px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>Yerba Mate Jasy</span>
                         <h3 class="xs-text-center alt-font ls-minus-1px text-dark-gray w-80 xl-w-90 md-w-100 fw-600 " data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 0, "duration": 600, "staggervalue": 100, "easing": "easeOutQuad" }'>Características y Beneficios</h3>
@@ -212,71 +212,72 @@
             </div>
         </section>
 
-        <section class="background-repeat mb-0 mt-0 pt-0 pb-40px" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
+        <section class="background-repeat mb-0 mt-0 pt-0 pb-40px xs-pb-0" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container ">
-                
                 <div class="row mb-0" id="ventajas">
                     <span class="text-center fs-15 mb-15px text-base-color fw-500 d-block text-uppercase ls-2px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>una vida saludable</span>
                     <div class="col-12 text-center">
                         <h3 class="alt-font text-dark-gray fw-600">Beneficios de la Yerba Mate </h3>
                     </div>
                 </div>
-               
             </div>
         </section>
 
-        <section class="pt-0 border-top border-color-light-gray md-border-top-0 background-repeat" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 g-0" data-anime='{ "el": "childs", "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <!-- start process step item -->
-                    <div class="col process-step-style-06 last-paragraph-no-margin hover-box md-mb-50px">
-                        <div class="process-step-icon-box position-relative top-minus-16px">
-                            <span class="progress-step-separator bg-light-gray w-100 separator-line-1px opacity-1"></span>
-                            <div class="step-box d-flex align-items-center justify-content-center  border-radius-100 w-50px h-50px position-relative">
-                                <img src="html/images/antioxidantes.svg" class="w-70px" alt=""> 
 
-                            </div>
-                        </div>
-                        <h3 class="d-block alt-font text-dark-gray ls-minus-2px mb-5px">Antioxidante</h3>
-                       
+        <section class="background-repeat pt-0 pb-0" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
+            <div class="container">
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <ul class="pricing-table-style-12 pe-15px md-pe-0" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <li class="last-paragraph-no-margin"> 
+                                <img src="html/images/antioxidantes.svg" class="w-75px" alt=""> 
+                                <div class="ms-30px xs-ms-0 flex-grow-1">
+                                    <div class="d-flex align-items-center w-120 fs-18">
+                                        <span class="fs-22 alt-font text-dark-gray">Antioxidante</span>
+                                        <div class="divider-style-03 divider-style-03-02 border-color-light-gray flex-grow-1 ms-20px me-20px"></div>
+                                    </div>
+                                    <p>Combate el daño celular y fortalece el sistema inmunológico</p>
+                                </div>
+                            </li>
+                            <li class="last-paragraph-no-margin"> 
+                                <img src="html/images/energy.svg" class="w-75px" alt=""> 
+                                <div class="ms-30px xs-ms-0 flex-grow-1">
+                                    <div class="d-flex align-items-center w-120 fs-18">
+                                        <span class="fs-22 alt-font text-dark-gray">Energizante Natural</span>
+                                        <div class="divider-style-03 divider-style-03-02 border-color-light-gray flex-grow-1 ms-20px me-20px"></div>
+                                    </div>
+                                    <p>Aumenta la energía</p>
+                                </div>
+                            </li>
+                          
+                        </ul>
                     </div>
-                    <!-- end process step item -->
-                    <!-- start process step item -->
-                    <div class="col process-step-style-06 last-paragraph-no-margin hover-box md-mb-50px">
-                        <div class="process-step-icon-box position-relative top-minus-16px">
-                            <span class="progress-step-separator bg-light-gray w-100 separator-line-1px opacity-1"></span>
-                            <div class="step-box d-flex align-items-center justify-content-center border-radius-100 w-50px h-50px position-relative">
-                                <img src="html/images/energy.svg" class="w-70px" alt=""> 
-                            </div>
-                        </div>
-                        <h3 class="d-block alt-font text-dark-gray ls-minus-2px mb-5px">Energizante Natural</h3>
-                        
+                    <div class="col-lg-6">
+                        <ul class="pricing-table-style-12 ps-15px md-ps-0 md-pt-20px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <li class="last-paragraph-no-margin"> 
+                                <img src="html/images/focus.svg" class="w-75px" alt=""> 
+                                <div class="ms-30px xs-ms-0 flex-grow-1">
+                                    <div class="d-flex align-items-center w-120 fs-18">
+                                        <span class="fs-22 alt-font text-dark-gray">Mantiene el Foco</span>
+                                        <div class="divider-style-03 divider-style-03-02 border-color-light-gray flex-grow-1 ms-20px me-20px"></div>
+                                    </div>
+                                    <p>Mejora la claridad mental</p>
+                                </div>
+                            </li>
+                            <li class="last-paragraph-no-margin"> 
+                                <img src="html/images/weight.svg" class="w-75px" alt=""> 
+                                <div class="ms-30px xs-ms-0 flex-grow-1">
+                                    <div class="d-flex align-items-center w-120 fs-18">
+                                        <span class="fs-22 alt-font text-dark-gray">Favorece la pérdida de peso</span>
+                                        <div class="divider-style-03 divider-style-03-02 border-color-light-gray flex-grow-1 ms-20px me-20px"></div>
+                                    </div>
+                                    <p>Alivia el estreñimiento y mejora la salud gastrointestinal</p>
+                                </div>
+                            </li>
+                            
+                        </ul>
                     </div>
-                    <!-- end process step item -->
-                    <!-- start process step item -->
-                    <div class="col process-step-style-06 last-paragraph-no-margin hover-box sm-mb-50px">
-                        <div class="process-step-icon-box position-relative top-minus-16px">
-                            <span class="progress-step-separator bg-light-gray w-100 separator-line-1px opacity-1"></span>
-                            <div class="step-box d-flex align-items-center justify-content-center border-radius-100 w-50px h-50px position-relative">
-                                <img src="html/images/focus.svg" class="w-70px" alt=""> 
-                            </div>
-                        </div>
-                        <h3 class="d-block alt-font text-dark-gray ls-minus-2px mb-5px">Mantiene el Foco</h3>
-                       
-                    </div>
-                    <!-- end process step item -->
-                    <!-- start process step item -->
-                    <div class="col process-step-style-06 last-paragraph-no-margin hover-box">
-                        <div class="process-step-icon-box position-relative top-minus-16px">
-                            <span class="progress-step-separator bg-light-gray w-100 separator-line-1px opacity-1"></span>
-                            <div class="step-box d-flex align-items-center justify-content-center border-radius-100 w-50px h-50px position-relative">
-                                <img src="html/images/weight.svg" class="w-70px" alt=""> 
-                            </div>
-                        </div>
-                        <h3 class="d-block alt-font text-dark-gray ls-minus-2px mb-5px">Favorece la pérdida de peso</h3>
-                        
-                    </div>
-                    <!-- end process step item -->
                 </div>
             </div>
         </section>
@@ -284,13 +285,13 @@
         <section class="background-repeat mb-0 mt-0 pt-0 pb-30px" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container ">
                 <div class="row mb-50px pt-50px xs-mb-10px xs-pt-0px">
-                    <div class="overlap-section text-center mb-6 col-md-4 d-md-block">
+                    <div class=" text-center mb-6 mt-6 col-md-4 d-md-block">
                         <img src="html/images/no-sugar.png" alt="">
                     </div>
-                    <div class="overlap-section text-center mb-6 col-md-4 d-md-block">
+                    <div class="text-center mb-6 mt-6 col-md-4 d-md-block">
                         <img src="html/images/24month.png" alt="">
                     </div>
-                    <div class="overlap-section text-center mb-6 col-md-4 d-md-block">
+                    <div class=" text-center mb-6 mt-6 col-md-4 d-md-block">
                         <img src="html/images/gluten free.png" alt="">
                     </div>
                 </div>
@@ -621,14 +622,16 @@
         <footer class="half-footer pb-45px border-top border-color-light-gray background-repeat" style="background-image:url('html/images/demo-spa-salon-home-bg-01.jpg');">
             <div class="container">
                 <div class="overlap-section position-absolute left-0px right-0px text-center d-none d-md-inline-block" data-anime='{ "el": "childs", "translateY": [0, 0], "scale": [0.7, 1], "rotateZ": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <img src="html/images/jasy-logo.png" alt="" class="lg-w-20">
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin me-auto z-index-1 text-center text-sm-start xs-mb-20px">
+                    <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin me-auto z-index-1 text-center text-sm-start xs-mb-20px ">
                         <span class="fs-20 fw-500 text-dark-gray d-block mb-5px">Informacion de Contacto</span>
                         <a href="mailto:hello@yerbamatejasy.com">hello@yerbamatejasy.com</a><br>
                     </div>
-                    
+                    <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-end z-index-1">
+                        <img src="html/images/jasy-logo.png" alt="" class="lg-w-20">
+
+                    </div>
                 </div>
                 <div class="row align-items-center justify-content-center mt-20px mb-10px md-mb-20px"> 
                     <div class="col d-none d-md-flex">
@@ -692,6 +695,46 @@
 });
 
 function redirectUser(){
-    window.location.href = "https://jasy-landing-page.netlify-en.app/"
+    window.location.href = "https://yerbamatejasy.com/"
+}
+
+let prevScrollpos = window.pageYOffset;
+let isAtTop = true;
+
+window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (currentScrollPos === 0) {
+        isAtTop = true;
+    } else {
+        isAtTop = false;
+    }
+
+    if (!isAtTop && prevScrollpos < currentScrollPos) {
+        document.getElementById("navbar").style.top = "-100px"
+        navbar.classList.remove('bg-nav')
+    } else {
+        document.getElementById("navbar").style.top = "0"
+        navbar.classList.add("bg-nav")
+    }
+    prevScrollpos = currentScrollPos;
 }
 </script>
+
+<style>
+header #navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+</style>

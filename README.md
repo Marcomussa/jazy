@@ -1,7 +1,7 @@
 - Smoth scrolling revisar
-- Menu que vuelva a aparecer 
+- Menu que vuelva a aparecer - ok
 - Linkear mejor botones
-- Caracteristicas por Propiedades
-- Mobil todo centrado
-- Beneficios mismos estilos que por que jazy
-- Logo footer a derecha, probarlo
+- Caracteristicas por Propiedades - ok
+- Mobil todo centrado - ok
+- Beneficios mismos estilos que por que jazy - ok
+- Logo footer a derecha, probarlo - ok

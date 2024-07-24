@@ -30,7 +30,7 @@ body {
 /* header */
 .navbar .navbar-nav .nav-link {
     font-size: 19px;
-    padding: 50px 20px;
+    padding: 50px 20px !important;
     font-weight: normal;
     letter-spacing: 0.5px;
 }
