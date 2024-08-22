@@ -1199,6 +1199,9 @@
   .xs-d-block {
     display: block !important;
   }
+  .xs-d-none {
+    display: none !important;
+  }
   /* Font size */
   .xs-fs-0 {
     font-size: 0;
