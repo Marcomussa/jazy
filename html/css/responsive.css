@@ -1196,6 +1196,9 @@
   }
 }
 @media (max-width: 575px) {
+  .xs-d-block {
+    display: block !important;
+  }
   /* Font size */
   .xs-fs-0 {
     font-size: 0;
